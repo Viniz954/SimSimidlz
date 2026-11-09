@@ -11,8 +11,12 @@ let modoEstranho = false;
 
 const bancoDeRespostas = [ // Cada grupo possui palavras que ativam determinadas respostas
   {
-    palavras: ["oi", "olá", "ola", "eai", "e aí", "opa"], //essas ativam a de baixo:
-    respostas: ["Olá!", "oi", "oie", "oi mae", "opa"]//essas daqui
+    palavras: ["oi", "olá", "ola", "eai", "e aí"], //essas ativam a de baixo:
+    respostas: ["Olá!", "oi", "oie", "oi mae"]//essas daqui
+  },
+    {
+    palavras: ["batata"], //essas ativam a de baixo:
+    respostas: ["Pátricia"]//essas daqui
   },
   {
     palavras: ["tudo bem", "como você está", "como vc está", "como voce esta"],
@@ -41,7 +45,6 @@ const bancoDeRespostas = [ // Cada grupo possui palavras que ativam determinadas
 ];
 
 // Respostas pra encher linguiça (não vou fazer sistema de aprendizado e detecção de frases, palavras e etc, não sou uma vagabunda)
-// Vini do futuro: Cara, vc é estúpido. Devia ter mantido esse pensamento...
 const respostasEstranhasNormais = [
   "oq",
   "não",
