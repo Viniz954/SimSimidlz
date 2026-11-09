@@ -15,8 +15,8 @@ const bancoDeRespostas = [ // Cada grupo possui palavras que ativam determinadas
     respostas: ["Olá!", "oi", "oie", "oi mae"]//essas daqui
   },
   {
-    palavras: ["batata"], //essas ativam a de baixo:
-    respostas: ["patricia"]//essas daqui
+    palavras: ["batata", "miguel eduardo"], //essas ativam a de baixo:
+    respostas: ["patricia", "patricinha"]//essas daqui
   },
   {
     palavras: ["tudo bem", "como você está", "como vc está", "como voce esta"],
