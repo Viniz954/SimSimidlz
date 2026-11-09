@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SimSimi: a experiência (2018)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <section id="menu">
+    <div class="menu-fundo"></div>
+
+    <div id="titulo">
+      <span>SimSimi</span>
+      <small>a experiência (2018)</small>
+    </div>
+
+    <div class="menu-conteudo">
+      <div class="logo-container">
+        <div class="logo-brilho"></div>
+        <img id="imagemMenu" src="simsimi.png" alt="SimSimi">
+      </div>
+
+      <button id="iniciar">Iniciar</button>
+
+      <div class="menu-info">
+        <span>Uma experiência de conversa</span>
+        <span>Versão 2018</span>
+      </div>
+    </div>
+
+    <div class="menu-versao">SimSimi: a experiência</div>
+  </section>
+
+  <section id="chat">
+    <div class="topbar">
+      <div class="topbar-titulo">SimSimi</div>
+
+      <div class="menu-dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <div id="mensagens" class="mensagens">
+      <div class="nuvem nuvem-1"></div>
+      <div class="nuvem nuvem-2"></div>
+      <div class="nuvem nuvem-3"></div>
+      <div class="nuvem nuvem-4"></div>
+      <div class="nuvem nuvem-5"></div>
+    </div>
+
+    <div class="input-area">
+      <input
+        id="entrada"
+        type="text"
+        placeholder="insira sua mensagem..."
+        autocomplete="off">
+
+      <button id="enviar">➤</button>
+    </div>
+  </section>
+
+  <script src="js/bot.js"></script>
+  <script src="js/msg.js"></script>
+  <script src="js/others.js"></script>
+
+</body>
+</html>
